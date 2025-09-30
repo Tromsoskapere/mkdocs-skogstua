@@ -1,0 +1,26 @@
+site_name: Makerspace Dokumentasjon
+site_url: https://tourbino.github.io/mkdocs-test/ # <--- Bytt ut med din URL
+repo_url: https://github.com/tourbino/mkdocs-test # <--- Bytt ut med din repo-URL
+repo_name: Se på GitHub
+
+theme:
+  name: material
+  # logo: assets/logo.svg
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Bytt til mørkt tema
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Bytt til lyst tema
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - awesome-pages
+
