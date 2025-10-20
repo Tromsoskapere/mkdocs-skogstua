@@ -1,9 +1,3 @@
-# 1. etasje: Kreativ sone
+# Stua
+Stua er hjertet i Skogstua. Her finner du møtebord, arbeidsplasser og en sofagruppe. Her samles vi når vi har åpne hus, møter og prosjekter. Her kan du bare henge ut eller jobbe med egne prosjekt. La la la. 
 
-Denne etasjen er dedikert til lettere håndverk, kreativt arbeid og samarbeid.
-
-## Rom i 1. etasje
-
--   **[Kreativt Rom](kreativt_rom.md):** For sying, vinylkutting og generell prototyping.
--   **[Keramikkrom](keramikkrom.md):** Her finner du dreieskiver og keramisk ovn.
--   **[Møterom](moterom.md):** Kan bookes for prosjektplanlegging og møter.
