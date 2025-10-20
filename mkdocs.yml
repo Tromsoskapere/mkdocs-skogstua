@@ -25,4 +25,5 @@ plugins:
   - awesome-pages
   - search
   - section-index
+  - subpages
 
