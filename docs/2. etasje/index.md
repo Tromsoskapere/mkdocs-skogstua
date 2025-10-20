@@ -1,8 +1,3 @@
-# 2. etasje: Digital sone
+# Elektronikk lab
 
-Velkommen til vår digitale fabrikasjon- og elektronikkavdeling.
-
-## Rom i 2. etasje
-
--   **[3D-printerrom](3dprinter_rom.md):** Hjem til våre FDM- og SLA-printere.
--   **[Elektronikklab](elektronikklab.md):** Utstyrt for lodding og arbeid med mikrokontrollere.
+Her kan du jobbe med elektronikk og prosjekter som krever lodding osv osv
