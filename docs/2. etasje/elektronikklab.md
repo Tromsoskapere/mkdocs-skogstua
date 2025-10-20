@@ -1,3 +1,0 @@
-# Elektronikklab
-
-(Dokumentasjon kommer...)
