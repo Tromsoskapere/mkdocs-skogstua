@@ -1,8 +1,8 @@
-# Velkommen til vårt Makerspace!
+# Velkommen til Skogstua fellesverksted!
 
-Dette er den sentrale kunnskapsbasen for alle maskiner, verktøy og rom i vårt makerspace. Målet er at du enkelt skal finne informasjonen du trenger for å kunne skape trygt og effektivt.
+Målet med denne siden er å samle all praktisk informasjon du trenger for å bruke verkstedet vårt på en trygg, effektiv og kreativ måte. Enten du er et helt nytt medlem eller en erfaren bruker som trenger å sjekke en manual, skal du finne svaret her.
 
-
+Bruk søkefeltet øverst for å finne akkurat det du leter etter, eller naviger via menyen.
 
 ## Hvordan bruke dokumentasjonen?
 
@@ -18,3 +18,4 @@ Naviger ved hjelp av menyen øverst for å utforske de ulike etasjene og rommene
 ## Kom i gang
 
 Er du ny her? Start med å gjøre deg kjent med våre generelle sikkerhetsrutiner.
+
