@@ -23,4 +23,5 @@ theme:
 
 plugins:
   - awesome-pages
+  - search
 
