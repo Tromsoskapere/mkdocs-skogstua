@@ -15,3 +15,4 @@ Dokumentasjonen er organisert etter etasjer/områder og rom på huset.
 
 
 
+![Nordlys over Skogstua](skogstua_natt.jpg "Skogstua fellesverksted")
