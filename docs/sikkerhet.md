@@ -1,6 +1,6 @@
 # Sikkerhet
 
-Sikkerheten til alle besøkende er vår høyeste prioritet. Alle som bruker verkstedet er ansvarlige for å følge disse reglene. Brudd på sikkerhetsreglene kan føre til utestengelse.
+Sikkerheten til besøkende er vår høyeste prioritet. Alle som bruker verkstedet er ansvarlige for å følge disse reglene. Brudd på sikkerhetsreglene kan føre til utestengelse.
 
 ## De 5 Gylne Regler
 
