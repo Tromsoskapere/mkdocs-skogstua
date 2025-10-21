@@ -1,4 +1,4 @@
-# Generell Sikkerhet
+# Sikkerhet
 
 Sikkerheten til alle besøkende er vår høyeste prioritet. Alle som bruker verkstedet er ansvarlige for å følge disse reglene. Brudd på sikkerhetsreglene kan føre til utestengelse.
 
