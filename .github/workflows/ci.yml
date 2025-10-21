@@ -1,15 +1,17 @@
-# .github/workflows/deploy.yml
+# .github/workflows/ci.yml
 
 name: Build and Deploy MkDocs to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main # Eller master
 
-# This workflow needs to write to the repository to push to the gh-pages branch
+# Set permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   # Build job: Builds the MkDocs site
@@ -29,41 +31,27 @@ jobs:
           pip install mkdocs-material
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-section-index
-          pip install mkdocs-macros-plugin
 
-      # We still build separately to see the verbose logs
+      # This is the most important change!
+      # We build the site separately and use --verbose for detailed logs.
       - name: Build site
         run: mkdocs build --verbose
 
-      # Upload the built site as an artifact to pass to the deploy job
+      # Upload the built site as an artifact for the deploy job
       - name: Upload build artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: site-files
           path: './site'
 
-  # Deploy job: Deploys the built site using the older gh-deploy command
+  # Deploy job: Deploys the built site to GitHub Pages
   deploy:
-    # This job needs the build artifact from the previous job
+    # This job only runs if the build job succeeds
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-macros-plugin
-
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site-files
-          path: './site'
-
       - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force --no-history
+        id: deployment
+        uses: actions/deploy-pages@v4

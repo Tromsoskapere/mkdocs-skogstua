@@ -26,16 +26,3 @@ plugins:
   - search
   - section-index
 
-define_env:
-  !python |
-    def define_env(env):
-        """
-        This is the hook for the macros plugin, defined inline.
-        """
-        @env.macro
-        def hello_world():
-            """
-            A simple test macro to confirm the connection.
-            """
-            return "### Success! The inline macro is working in GitHub Actions."
-
