@@ -1,15 +1,15 @@
-# .github/workflows/ci.yml
+# .github/workflows/deploy.yml
 
 name: Build and Deploy MkDocs to GitHub Pages
 
 on:
   push:
     branches:
-      - main # Eller master
+      - main # Or your default branch
 
 # Set permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -31,9 +31,8 @@ jobs:
           pip install mkdocs-material
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-section-index
+          # NOTE: mkdocs-macros-plugin is NOT installed here
 
-      # This is the most important change!
-      # We build the site separately and use --verbose for detailed logs.
       - name: Build site
         run: mkdocs build --verbose
 
