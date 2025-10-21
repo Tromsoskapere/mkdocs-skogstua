@@ -1,0 +1,7 @@
+# Styrer rekkefølgen på toppnivå-mappene
+nav:
+  - 1. etasje
+  - 2. etasje
+  - Kjelleren
+  - Hagen
+  - ... # Inkluderer andre filer/mapper du glemte  
