@@ -1,10 +1,14 @@
 # CNC-rom
 
-Her står vår store CNC-fres, en "Inventables X-Carve Pro".
+Her står våre CNC-freser. 
 
+## Maskin: Bravo CNC BE303
 
+## Maskin: MPCNC Lowrider4
+Arbeidsområde: 1440x2880 (byggeplatestørrelse.
 
-## Maskin: CNC-fres (X-Carve Pro)
+Rutiner og regler for bruk av CNC vil publiseres på denne siden.
+
 
 #### Sikkerhet 🚨
 
@@ -13,8 +17,3 @@ Her står vår store CNC-fres, en "Inventables X-Carve Pro".
 -   Fest alltid materialet skikkelig. En løs del kan bli et farlig prosjektil.
 -   Bruk avsugssystemet. Fint støv er helseskadelig.
 
-#### Kom i gang
-
-1.  Book tid på maskinen via [vårt bookingsystem](link/til/booking).
-2.  Forbered designet ditt i et program som kan eksportere SVG eller G-kode.
-3.  Følg sjekklisten som henger ved maskinen for oppstart og nullstilling.
