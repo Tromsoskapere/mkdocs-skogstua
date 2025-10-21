@@ -6,7 +6,7 @@ repo_name: Se på GitHub
 theme:
   name: material
   language: nb
-  # logo: assets/logo.svg
+  logo: logo.svg
   palette:
     - scheme: default
       toggle:
