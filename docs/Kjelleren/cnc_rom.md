@@ -4,10 +4,12 @@ Her står våre CNC-freser.
 
 ## Maskin: Bravo CNC BE303
 
-## Maskin: MPCNC Lowrider4
-Arbeidsområde: 1440x2880 (byggeplatestørrelse.
+## Maskin: MPCNC Lowrider4 fra v1engineering.
+Arbeidsområde: 1440x2880 (byggeplatestørrelse)
+[Dokumentasjon hos v1e.com](https://docs.v1e.com/lowrider/)
 
-Rutiner og regler for bruk av CNC vil publiseres på denne siden.
+
+### Rutiner og regler for bruk av CNC vil publiseres på denne siden.
 
 
 #### Sikkerhet 🚨
