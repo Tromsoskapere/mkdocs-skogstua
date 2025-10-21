@@ -1,39 +1,42 @@
 # docs/main.py
-import mkdocs_macros
+import os
+from mkdocs.config import config_options
+from mkdocs.plugins import BasePlugin
 
 def define_env(env):
     """
-    This is the hook for defining variables, macros and filters
-    - variables: the dictionary that contains the environment variables
-    - macro: a decorator function, to declare a macro.
-    - filter: a function with one of more arguments,
-        used to perform a transformation
+    This is the hook for the macros plugin.
+    'env' is an object that contains the page, config, and other site data.
     """
-    
     @env.macro
-    def list_siblings_and_children():
+    def list_folder_contents():
         """
-        Returns a Markdown list of siblings and children of the current page.
+        Generates a Markdown list of all pages in the same directory as the current page.
         """
-        if not env.page or not env.page.ancestors:
-            return ""
+        # Get the directory of the current page
+        current_dir = os.path.dirname(env.page.file.src_path)
         
-        # The parent section is the last ancestor
-        parent_section = env.page.ancestors[-1]
+        # Find all pages that are in the same directory
+        sibling_pages = [
+            p for p in env.pages 
+            if os.path.dirname(p.file.src_path) == current_dir
+        ]
         
-        if not parent_section.children:
+        # Sort the pages alphabetically by title for a consistent order
+        sibling_pages.sort(key=lambda p: p.title)
+        
+        # If no siblings are found, return an empty string
+        if not sibling_pages:
             return ""
 
-        output = ["## Pages in this Section\n"]
-        for item in parent_section.children:
-            if item.is_page:
-                # Check if it's the current page to add a class or marker
-                active_marker = " (Active)" if item == env.page else ""
-                output.append(f"- [{item.title}]({item.url}){active_marker}")
-            elif item.is_section:
-                output.append(f"- **{item.title}**")
-                for child_page in item.children:
-                    active_marker = " (Active)" if child_page == env.page else ""
-                    output.append(f"  - [{child_page.title}]({child_page.url}){active_marker}")
+        # Build the Markdown list
+        output = ["## Pages in this section\n"]
+        for page in sibling_pages:
+            # Don't link to the current page itself, just list its title
+            if page.url == env.page.url:
+                output.append(f"- **{page.title}**")
+            else:
+                output.append(f"- [{page.title}]({page.url})")
         
+        # Join the list into a single string and return it
         return "\n".join(output)
