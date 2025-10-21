@@ -25,5 +25,6 @@ plugins:
   - awesome-pages
   - search
   - section-index
-  - macros
+  - macros:
+      module_name: main
 

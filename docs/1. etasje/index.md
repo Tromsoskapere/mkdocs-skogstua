@@ -1,3 +1,3 @@
 # 1. etasje
 Har følgende rom:
-{{ pagetree(subtree) }}
+{{ list_siblings_and_children() }}
