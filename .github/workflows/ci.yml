@@ -9,9 +9,7 @@ on:
 
 # Set permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
   # Build job: Builds the MkDocs site
