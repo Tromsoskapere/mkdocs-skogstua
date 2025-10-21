@@ -15,6 +15,6 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install dependencies
-        run: pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-pagetree-plugin
+        run: pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-section-index mkdocs-macros-plugin
       - name: Deploy
         run: mkdocs gh-deploy --force
