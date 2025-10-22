@@ -37,16 +37,16 @@ jobs:
     - name: 🔨 Build MkDocs site
       run: mkdocs build
 
-    # 5. Laster opp til webhotellet via SFTP (Kun hvis det er 'main')
-    # Dette steget kjører KUN når en PR er merget til 'main'.
+# 5. Laster opp til webhotellet via SFTP (Kun hvis det er 'main')
     - name: ⬆️ Upload to SFTP
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: appleboy/sftp-action@v1
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        host: ${{ secrets.SFTP_HOST }}
+        server: ${{ secrets.SFTP_HOST }}
         username: ${{ secrets.SFTP_USER }}
         password: ${{ secrets.SFTP_PASSWORD }}
-        port: 22 # Standard SFTP-port, endre hvis nødvendig
-        source: "site/" # Mappen som skal lastes opp (med / på slutten)
-        remote: ${{ secrets.REMOTE_PATH }}
-        strip_components: 1 # Fjerner 'site/' fra stien på serveren
+        protocol: sftp  # <-- Forteller den at vi skal bruke SFTP
+        port: 22        # <-- Standard SFTP-port
+        local-dir: ./site/ # <-- Mappen som skal lastes opp
+        server-dir: ${{ secrets.REMOTE_PATH }} # <-- Mappen den skal til
+        strip-trailing-slashes: true # Fjerner / på slutten for å unngå feil
