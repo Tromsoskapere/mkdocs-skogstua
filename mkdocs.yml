@@ -24,7 +24,6 @@ theme:
 
 plugins:
   - awesome-pages
-  - search
   - section-index
   - macros
-
+  - search
