@@ -45,7 +45,7 @@ jobs:
         server: ${{ secrets.SFTP_HOST }}
         username: ${{ secrets.SFTP_USER }}
         password: ${{ secrets.SFTP_PASSWORD }}
-        port: 22 # Standard SFTP-port, endre hvis nødvendig
-        local_path: ./site/ # Kilden: 'site'-mappen som mkdocs bygger
+        port: 22
+        local_path: ./site/ 
         remote_path: ${{ secrets.REMOTE_PATH }}
-        delete: true # Sletter gamle filer på serveren
+        delete_remote_files: true  # <--- HER ER ENDRINGEN (delete -> delete_remote_files)
