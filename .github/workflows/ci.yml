@@ -49,3 +49,4 @@ jobs:
         local_path: ./site/ 
         remote_path: ${{ secrets.REMOTE_PATH }}
         delete_remote_files: true  # <--- HER ER ENDRINGEN (delete -> delete_remote_files)
+        sftp_only: true
