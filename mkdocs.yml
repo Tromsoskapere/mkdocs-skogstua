@@ -23,4 +23,7 @@ theme:
     - search.highlight
 
 plugins:
+  - awesome-pages
+  - section-index
   - macros
+  - search
