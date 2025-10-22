@@ -4,8 +4,7 @@ Inventarliste. Hele Kategori "Maskinhall" er et testområde.
 Her er en macro test
 
 <ul>
-{% for subpage in page.children %}
-    {# Bare bruk subpage.url direkte #}
-    <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
-{% endfor %}
+  {% for subpage in page.children %}
+    <li><a href="{{ subpage.file.name }}/">{{ subpage.meta.title or subpage.file.name }}</a></li>
+  {% endfor %}
 </ul>
