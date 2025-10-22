@@ -1,5 +1,5 @@
 site_name: Skogstua fellesverksted
-site_url: https://tromsoskapere.github.io/mkdocs-skogstua # <--- Bytt ut med din URL
+site_url: https://www.tromsoskapere.no/docs # <--- Bytt ut med din URL
 repo_url: https://github.com/Tromsoskapere/mkdocs-skogstua/ # <--- Bytt ut med din repo-URL
 repo_name: Se på GitHub
 
