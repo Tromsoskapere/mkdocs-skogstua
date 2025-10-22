@@ -37,23 +37,15 @@ jobs:
     - name: 🔨 Build MkDocs site
       run: mkdocs build
 
-# 5. Laster opp til webhotellet via rsync/ssh (Kun hvis det er 'main')
-    - name: ⬆️ Upload to Server (rsync)
+# 5. Laster opp til webhotellet via SCP (passord)
+    - name: ⬆️ Upload to Server (scp)
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      run: |
-        # 1. Opprett SSH-mappen
-        mkdir -p ~/.ssh
-        
-        # 2. Installer den private nøkkelen
-        echo "${{ secrets.SFTP_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        
-        # 3. Legg til serveren i kjente verter (omgår "Permanently added" varselet)
-        ssh-keyscan -H ${{ secrets.SFTP_HOST }} >> ~/.ssh/known_hosts
-        
-        # 4. Synkroniser 'site/'-mappen til serveren med rsync
-        # -avz = archive, verbose, compress
-        # --delete = sletter filer på serveren som ikke er i 'site/'
-        rsync -avz --delete \
-          ./site/ \
-          ${{ secrets.SFTP_USER }}@${{ secrets.SFTP_HOST }}:${{ secrets.REMOTE_PATH }}
+      uses: appleboy/scp-action@v0.1.7 # Handlingen du foreslo
+      with:
+        host: ${{ secrets.SFTP_HOST }}
+        username: ${{ secrets.SFTP_USER }}
+        password: ${{ secrets.SFTP_PASSWORD }} # <-- Vi bruker passord!
+        port: 22 # Standardport
+        source: "site/*" # Kopierer alt INNI 'site'-mappen
+        target: ${{ secrets.REMOTE_PATH }}
+        overwrite: true # Overskriver eksisterende filer
