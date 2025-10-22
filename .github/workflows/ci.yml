@@ -1,37 +1,52 @@
-# .github/workflows/deploy.yml
+name: Build and Deploy MkDocs (SFTP)
 
-name: Build and Deploy MkDocs to GitHub Pages
-
+# Kjører hver gang en endring blir pushet til 'main'-grenen
 on:
   push:
     branches:
       - main
+  pull_request: # Kjører også på Pull Requests
 
-# This workflow needs to write to the repository to push to the gh-pages branch
-permissions:
-  contents: write
-
+# Jobben som skal gjøres
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  build-and-deploy:
+    runs-on: ubuntu-latest # Bruker en standard Linux-maskin
+    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    # 1. Sjekker ut koden fra repoet
+    - name: ⬇️ Checkout code
+      uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+    # 2. Setter opp Python (som MkDocs trenger)
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.x
 
-      - name: Install dependencies
-        run: |
-          pip install mkdocs-material
-          pip install mkdocs-awesome-pages-plugin
-          pip install mkdocs-section-index
-          pip install mkdocs-macros-plugin
+    # 3. Installerer MkDocs og alle pluginene dere bruker
+    - name: 📦 Install MkDocs & Plugins
+      run: |
+        pip install mkdocs-material
+        pip install mkdocs-awesome-pages-plugin
+        pip install mkdocs-section-index
+        pip install mkdocs-macros-plugin
+        # Legg til 'pip install ...' for andre plugins her
 
-      - name: Build site
-        run: mkdocs build --verbose
+    # 4. Bygger den statiske nettsiden
+    # Denne kommandoen lager 'site/'-mappen med all HTML/CSS
+    - name: 🔨 Build MkDocs site
+      run: mkdocs build
 
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force --no-history
+    # 5. Laster opp til webhotellet via SFTP (Kun hvis det er 'main')
+    # Dette steget kjører KUN når en PR er merget til 'main'.
+    - name: ⬆️ Upload to SFTP
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      uses: appleboy/sftp-action@master # Bruker en populær SFTP-handling
+      with:
+        host: ${{ secrets.SFTP_HOST }}
+        username: ${{ secrets.SFTP_USER }}
+        password: ${{ secrets.SFTP_PASSWORD }}
+        port: 22 # Standard SFTP-port, endre hvis nødvendig
+        source: "site/" # Mappen som skal lastes opp (med / på slutten)
+        remote: ${{ secrets.REMOTE_PATH }}
+        strip_components: 1 # Fjerner 'site/' fra stien på serveren
