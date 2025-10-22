@@ -1,0 +1,7 @@
+mkdocs
+mkdocs-material
+# mkdocs-section-index
+# mkdocs-macros-plugin
+# mkdocs-awesome-pages-plugin
+mkdocs-awesome-nav
+mkdocs-pagetree-plugin
