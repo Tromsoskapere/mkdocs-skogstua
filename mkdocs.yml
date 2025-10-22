@@ -18,12 +18,16 @@ theme:
         name: Bytt til lyst tema
   features:
     - navigation.sections
+    - navigation.indexes
     - navigation.top
     - search.suggest
     - search.highlight
 
 plugins:
-  - awesome-pages
-  - section-index
-  - macros
+  # - awesome-pages  # deprecated and renamed to awesome-nav
+  - awesome-nav
+  # - section-index
+  - pagetree
+  # - macros
   - search
+
