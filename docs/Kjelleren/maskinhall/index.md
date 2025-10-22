@@ -5,6 +5,8 @@ Her er en macro test
 
 <ul>
 {% for subpage in page.children %}
-    <li><a href="{{ subpage.file.name }}/">{{ child_page.title or subpage.file.name}}</a></li>
+    {# Bruk subpage.title for tittelen #}
+    {# Bruk subpage.url | url for den sikreste lenken #}
+    <li><a href="{{ subpage.url | url }}">{{ subpage.title }}</a></li>
 {% endfor %}
 </ul>
