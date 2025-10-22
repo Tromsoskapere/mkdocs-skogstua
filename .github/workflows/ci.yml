@@ -41,7 +41,7 @@ jobs:
     # Dette steget kjører KUN når en PR er merget til 'main'.
     - name: ⬆️ Upload to SFTP
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: appleboy/sftp-action@master # Bruker en populær SFTP-handling
+      uses: appleboy/sftp-action@v1
       with:
         host: ${{ secrets.SFTP_HOST }}
         username: ${{ secrets.SFTP_USER }}
