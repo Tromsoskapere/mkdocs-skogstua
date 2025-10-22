@@ -48,5 +48,5 @@ jobs:
         port: 22
         local_path: ./site/ 
         remote_path: ${{ secrets.REMOTE_PATH }}
-        delete_remote_files: true
+        delete_remote_files: false
         sftp_only: true # Veldig viktig, denne har vi med fra sist
