@@ -28,6 +28,7 @@ jobs:
           pip install mkdocs-material
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-section-index
+          pip install mkdocs-pagetree-plugin
 
       - name: Build site
         run: mkdocs build --verbose
