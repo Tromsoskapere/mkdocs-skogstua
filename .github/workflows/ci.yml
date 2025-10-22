@@ -38,13 +38,14 @@ jobs:
       run: mkdocs build
 
 # 5. Laster opp til webhotellet via SFTP (Kun hvis det er 'main')
-    - name: ⬆️ Upload to SFTP
+    - name: ⬆️ Upload to SFTP (wlixcc)
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: laminlabs/sftp-action@v1 # Bruker en ny, stabil SFTP-handling
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        host: ${{ secrets.SFTP_HOST }}
+        server: ${{ secrets.SFTP_HOST }}
         username: ${{ secrets.SFTP_USER }}
         password: ${{ secrets.SFTP_PASSWORD }}
-        port: 22 # Standard SFTP-port
-        source: 'site/' # Mappen som skal lastes opp (med / på slutten)
-        target: ${{ secrets.REMOTE_PATH }} # Mappen den skal til
+        port: 22 # Standard SFTP-port, endre hvis nødvendig
+        local_path: ./site/ # Kilden: 'site'-mappen som mkdocs bygger
+        remote_path: ${{ secrets.REMOTE_PATH }}
+        delete: true # Sletter gamle filer på serveren
