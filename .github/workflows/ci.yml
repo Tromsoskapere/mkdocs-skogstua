@@ -40,13 +40,11 @@ jobs:
 # 5. Laster opp til webhotellet via SFTP (Kun hvis det er 'main')
     - name: ⬆️ Upload to SFTP
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      uses: laminlabs/sftp-action@v1 # Bruker en ny, stabil SFTP-handling
       with:
-        server: ${{ secrets.SFTP_HOST }}
+        host: ${{ secrets.SFTP_HOST }}
         username: ${{ secrets.SFTP_USER }}
         password: ${{ secrets.SFTP_PASSWORD }}
-        protocol: sftp  # <-- Forteller den at vi skal bruke SFTP
-        port: 22        # <-- Standard SFTP-port
-        local-dir: ./site/ # <-- Mappen som skal lastes opp
-        server-dir: ${{ secrets.REMOTE_PATH }} # <-- Mappen den skal til
-        strip-trailing-slashes: true # Fjerner / på slutten for å unngå feil
+        port: 22 # Standard SFTP-port
+        source: 'site/' # Mappen som skal lastes opp (med / på slutten)
+        target: ${{ secrets.REMOTE_PATH }} # Mappen den skal til
