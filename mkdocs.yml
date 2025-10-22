@@ -26,5 +26,5 @@ plugins:
   - awesome-pages
   - search
   - section-index
-  - pagetree
+  - macros
 
