@@ -1,7 +1,13 @@
 # Maskinhall
 Inventarliste. Hele Kategori "Maskinhall" er et testområde.
 
-Her er en helt vanlig `{{ pagetree }}`
+Her er en helt vanlig
+```
+{
+{{ pagetree }}
+}
+```
+
 {{ pagetree }}
 
 Her er pagetree med children `{{ pagetree(children) }}`
