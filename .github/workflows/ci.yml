@@ -1,15 +1,17 @@
-name: Build and Deploy MkDocs (SFTP)
+name: Deploy to GitHub Pages
 
-# Kjører hver gang en endring blir pushet til 'main'-grenen
+# Kjører hver gang du pusher til 'main'-grenen
 on:
   push:
     branches:
       - main
-  pull_request: # Kjører også på Pull Requests
 
-# Jobben som skal gjøres
+# Gir workflown tillatelse til å skrive til repoet (nødvendig for å pushe)
+permissions:
+  contents: write
+
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest # Bruker en standard Linux-maskin
     
     steps:
@@ -17,13 +19,13 @@ jobs:
     - name: ⬇️ Checkout code
       uses: actions/checkout@v4
 
-    # 2. Setter opp Python (som MkDocs trenger)
+    # 2. Setter opp Python
     - name: 🐍 Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: 3.x
 
-    # 3. Installerer MkDocs og alle pluginene dere bruker
+    # 3. Installerer MkDocs og alle pluginene
     - name: 📦 Install MkDocs & Plugins
       run: |
         pip install mkdocs-material
@@ -32,27 +34,11 @@ jobs:
         # pip install mkdocs-macros-plugin
         pip install mkdocs-pagetree-plugin
         # Legg til 'pip install ...' for andre plugins her
+        # Legg til 'pip install ...' for andre plugins her
 
-    # 4. Bygger den statiske nettsiden
-    # Denne kommandoen lager 'site/'-mappen med all HTML/CSS
-    - name: 🔨 Build MkDocs site
-      run: mkdocs build
+    # 4. Bygger og deployer til GitHub Pages
+    # --force = tvinger oppdateringen
+    # --clean = rydder før den bygger
+    - name: 🚀 Deploy to GitHub Pages
+      run: mkdocs gh-deploy --force --clean
 
-    # --- LEGG TIL DENNE NYE BLOKKEN ---
-    - name: 🐛 List files in workspace
-      run: ls -laR
-    # -----------------------------------
-
-    # 5. Laster opp til webhotellet via SFTP (wlixcc)
-    - name: ⬆️ Upload to SFTP (wlixcc)
-      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      with:
-        server: ${{ secrets.SFTP_HOST }}
-        username: ${{ secrets.SFTP_USER }}
-        password: ${{ secrets.SFTP_PASSWORD }}
-        port: 22
-        local_path: site/* 
-        remote_path: ${{ secrets.REMOTE_PATH }}
-        sftp_only: true
-        delete_remote_files: false
