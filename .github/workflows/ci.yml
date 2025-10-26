@@ -27,7 +27,7 @@ jobs:
     - name: 📦 Install MkDocs & Plugins
       run: |
         pip install mkdocs-material
-        pip install mkdocs-awesome-nav-plugin
+        pip install mkdocs-awesome-nav
         # pip install mkdocs-section-index
         # pip install mkdocs-macros-plugin
         pip install mkdocs-pagetree-plugin
