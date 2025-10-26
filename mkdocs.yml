@@ -19,11 +19,12 @@ theme:
   features:
     - navigation.sections
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
 
 plugins:
-  - awesome-pages
-  - section-index
-  - macros
+  - awesome-nav
+# - section-index
+  - pagetree
   - search
