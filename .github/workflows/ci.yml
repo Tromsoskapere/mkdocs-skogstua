@@ -37,7 +37,12 @@ jobs:
     - name: 🔨 Build MkDocs site
       run: mkdocs build
 
-# 5. Laster opp til webhotellet via SFTP (wlixcc)
+    # --- LEGG TIL DENNE NYE BLOKKEN ---
+    - name: 🐛 List files in workspace
+      run: ls -laR
+    # -----------------------------------
+
+    # 5. Laster opp til webhotellet via SFTP (wlixcc)
     - name: ⬆️ Upload to SFTP (wlixcc)
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
@@ -46,7 +51,7 @@ jobs:
         username: ${{ secrets.SFTP_USER }}
         password: ${{ secrets.SFTP_PASSWORD }}
         port: 22
-        local_path: ./site/ 
+        local_path: site/ # <--- ENDRET DENNE (fjernet ./)
         remote_path: ${{ secrets.REMOTE_PATH }}
+        sftp_only: true
         delete_remote_files: false
-        sftp_only: true # Veldig viktig, denne har vi med fra sist
