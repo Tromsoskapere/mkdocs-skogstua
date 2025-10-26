@@ -28,3 +28,6 @@ plugins:
 # - section-index
   - pagetree
   - search
+
+extra_css:
+  - assets/extra.css
