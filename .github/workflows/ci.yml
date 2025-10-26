@@ -28,17 +28,9 @@ jobs:
     # 3. Installerer MkDocs og alle pluginene
     - name: 📦 Install MkDocs & Plugins
       run: |
-        pip install mkdocs-material
-        pip install mkdocs-awesome-nav
-        # pip install mkdocs-section-index
-        # pip install mkdocs-macros-plugin
-        pip install mkdocs-pagetree-plugin
-        # Legg til 'pip install ...' for andre plugins her
-        # Legg til 'pip install ...' for andre plugins her
+        pip install -r requirements.txt
 
     # 4. Bygger og deployer til GitHub Pages
-    # --force = tvinger oppdateringen
-    # --clean = rydder før den bygger
     - name: 🚀 Deploy to GitHub Pages
       run: mkdocs gh-deploy --force --clean
 
