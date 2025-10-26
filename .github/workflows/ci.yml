@@ -51,7 +51,7 @@ jobs:
         username: ${{ secrets.SFTP_USER }}
         password: ${{ secrets.SFTP_PASSWORD }}
         port: 22
-        local_path: site/ # <--- ENDRET DENNE (fjernet ./)
+        local_path: site/* 
         remote_path: ${{ secrets.REMOTE_PATH }}
         sftp_only: true
         delete_remote_files: false
