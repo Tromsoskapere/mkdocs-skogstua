@@ -27,7 +27,7 @@ jobs:
       run: |
         pip install mkdocs
         pip install mkdocs-material
-        pip install mkdocs-awesome-nav-plugin
+        pip install mkdocs-awesome-nav
         pip install mkdocs-pagetree-plugin
     
     # 4. Bygger den statiske nettsiden (lager 'site/'-mappen)
