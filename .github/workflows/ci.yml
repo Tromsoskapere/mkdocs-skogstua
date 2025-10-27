@@ -1,4 +1,4 @@
-name: 🚀 Deploy MkDocs (rsync)
+name: 🚀 Deploy to docs.tromsoskapere.no (rsync)
 
 # Kjører hver gang du pusher til 'main'-grenen
 on:
