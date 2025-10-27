@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: 🚀 Deploy MkDocs (rsync)
 
 # Kjører hver gang du pusher til 'main'-grenen
 on:
@@ -6,31 +6,52 @@ on:
     branches:
       - main
 
-# Gir workflown tillatelse til å skrive til repoet (nødvendig for å pushe)
-permissions:
-  contents: write
-
 jobs:
-  deploy:
-    runs-on: ubuntu-latest # Bruker en standard Linux-maskin
-    
+  web-deploy:
+    name: 🎉 Bygg og Deploy
+    runs-on: ubuntu-latest
     steps:
-    # 1. Sjekker ut koden fra repoet
-    - name: ⬇️ Checkout code
+    
+    # 1. Henter koden din fra GitHub
+    - name: 🚚 Hent koden
       uses: actions/checkout@v4
 
-    # 2. Setter opp Python
-    - name: 🐍 Set up Python
+    # 2. Setter opp Python (som MkDocs trenger)
+    - name: 🐍 Sett opp Python
       uses: actions/setup-python@v5
       with:
         python-version: 3.x
 
-    # 3. Installerer MkDocs og alle pluginene
-    - name: 📦 Install MkDocs & Plugins
+    # 3. Installerer MkDocs og de nye pluginene dine
+    - name: 📦 Installer MkDocs & Plugins
       run: |
-        pip install -r requirements.txt
+        pip install mkdocs
+        pip install mkdocs-material
+        pip install mkdocs-awesome-nav-plugin
+        pip install mkdocs-pagetree-plugin
+    
+    # 4. Bygger den statiske nettsiden (lager 'site/'-mappen)
+    - name: 🔨 Bygg MkDocs-siden
+      run: mkdocs build
 
-    # 4. Bygger og deployer til GitHub Pages
-    - name: 🚀 Deploy to GitHub Pages
-      run: mkdocs gh-deploy --force --clean
-
+    # 5. Laster opp til webhotellet via rsync/ssh
+    - name: ⬆️ Upload to Server (rsync)
+      run: |
+        # 1. Opprett SSH-mappen
+        mkdir -p ~/.ssh
+        
+        # 2. Installer den private nøkkelen fra GitHub Secrets
+        echo "${{ secrets.SFTP_KEY }}" > ~/.ssh/id_rsa
+        
+        # 3. Lås filen (viktig!)
+        chmod 600 ~/.ssh/id_rsa
+        
+        # 4. Legg til serveren i kjente verter (omgår "host key verification")
+        ssh-keyscan -H ${{ secrets.SFTP_HOST }} >> ~/.ssh/known_hosts
+        
+        # 5. Synkroniser 'site/'-mappen til serveren med rsync
+        # -avz = archive, verbose, compress
+        # --delete = sletter filer på serveren som ikke er i 'site/'
+        rsync -avz --delete \
+          ./site/ \
+          ${{ secrets.SFTP_USER }}@${{ secrets.SFTP_HOST }}:${{ secrets.REMOTE_PATH }}
