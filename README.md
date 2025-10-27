@@ -59,3 +59,9 @@ Du har nå lagret endringen din på en "kladd". Nå må du formelt be om at den 
 2.  Du trenger ikke fylle ut noe mer. Bare trykk på den store, grønne knappen **"Create pull request"**.
 
 **Ferdig!** Du har nå sendt inn et endringsforslag. Det eneste som gjenstår er at en administrator godkjenner den.
+
+---
+
+### For admins
+1. Hvis det ligger pull requests inne må disse godkjennes.
+2. Alle endringer på main blir publisert når du kjører workflowen "🚀 Deploy docs.tromsoskapere.no". Dette gjør du med Actions -> velg workflow -> Run workflow
