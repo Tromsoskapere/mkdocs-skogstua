@@ -2,9 +2,8 @@ name: 🚀 Deploy MkDocs (rsync)
 
 # Kjører hver gang du pusher til 'main'-grenen
 on:
-  push:
-    branches:
-      - main
+  # Kun manuell trigger (ingen automatisk deploy)
+  workflow_dispatch:
 
 jobs:
   web-deploy:
