@@ -2,3 +2,5 @@
 
 Fra Verktøy AS:
 [Record 350](https://verktoyas.no/produkter/maskiner/baandsager-tilbehoer/baandsager/record-baandsag-bs350-m-stativ)
+
+[Bruksanvisning på norsk] (Record Power BS350 Norsk.pdf)
