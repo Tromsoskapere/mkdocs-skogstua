@@ -1,12 +1,13 @@
 site_name: Skogstua fellesverksted
-site_url: https://tromsoskapere.github.io/mkdocs-skogstua/ # <--- Bytt ut med din URL
-repo_url: https://github.com/Tromsoskapere/mkdocs-skogstua/ # <--- Bytt ut med din repo-URL
-repo_name: Se på GitHub
+site_url: https://docs.tromsoskapere.no/ 
+repo_url: https://github.com/Tromsoskapere/mkdocs-skogstua/ 
+repo_name: mkdocs-skogstua
 
 theme:
   name: material
   language: nb
   logo: logo.svg
+  favicon: logo.svg
   palette:
     - scheme: default
       toggle:
