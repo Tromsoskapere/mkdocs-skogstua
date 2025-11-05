@@ -1,3 +1,3 @@
 # 3D-printerrom
 
-(Dokumentasjon kommer...)
+## Bambulab A1 med AMS
