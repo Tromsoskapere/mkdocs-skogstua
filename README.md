@@ -4,7 +4,7 @@ Velkommen! Dette er "lageret" (repoet) for all dokumentasjon på [docs.tromsoska
 
 Målet er at alle i foreningen enkelt skal kunne bidra. Du trenger ikke installere egen programvare for å gjøre enkle tekstendringer. Ved å redigere filer på github vil dette oppdatere hjemmesiden, etter en admin har godkjent endringen.
 
-Navigasjonsstrukturen på hjemmesiden er en direkte avspeiling av katalogstrukturen i /docs/. Filene er lagret i markdown-format, med .md endelse. Hver fil blir en egen html side. Alle .md filer må starte med '# Tittel'. Denne vil bli menytittel og side-tittel, og artikkel-tittel. Bilder laster du opp i samme mappe og legger inn med `![Bildetekst](eksempelbilde.png)`
+Navigasjonsstrukturen på hjemmesiden er en direkte avspeiling av katalogstrukturen i /docs/. Filene er lagret i markdown-format, med .md endelse. Hver fil blir en egen html side. Alle .md filer må starte med `# Tittel`. Denne vil bli menytittel og side-tittel, og artikkel-tittel. Bilder laster du opp i samme mappe og legger inn med `![Bildetekst](eksempelbilde.png)`
 
 ---
 
