@@ -9,6 +9,8 @@ Her finner du all infoen du trenger for å bruke huset og verkstedene våre på 
 
 Enten du er helt ny, nysgjerrig, eller en erfaren bruker som må sjekke en manual – så skal du finne svaret her. Siden inneholder en oversikt over alle rom, maskiner og verktøy vi har.
 
+Skogstua fellesverksted ligger i [Lærerskolevegen 8](https://maps.app.goo.gl/ry63Vw34jmP8voHA6), på Sør-Tromsøya. Du kan komme dit med buss 33, 34 og 40. Kjører du bil er det parkering på nedsiden, evt foran garasjen.
+
 ### Slik finner du frem
 - Bruk søkefeltet øverst for å finne noe raskt.
 - Bruk menyen til venstre for å se hva som finnes. Alt er sortert etter etasjer, områder og rom.
@@ -21,6 +23,7 @@ Enten du er helt ny, nysgjerrig, eller en erfaren bruker som må sjekke en manua
 Du må lese sikkerhetsreglene for en maskin før du bruker den for første gang. Du finner de generelle reglene for hele huset på vår felles [Sikkerhetsside](sikkerhet.md).
 
 ![Nordlys over Skogstua](skogstua_natt.jpg "Skogstua fellesverksted")
+
 
 
 
