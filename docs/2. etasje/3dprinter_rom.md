@@ -10,7 +10,7 @@ Fornuftige folk å kontakte med via e-post er [Kenneth](kenneth@tromsoskapere.no
 
 - 3D-utskrift smelter plast, så her kan det fort bli varmt!
 - Utskriftsplaten og føringskablene for plast er dekt med helseskadelige fluorkarboner. Vask hendene etter berøring.
-- Vær aller helst tilstede under utskrift og ta med deg utskriften når du er ferdig.
+- Vær aller helst tilstede i huset under utskrift og ta med deg utskriften når du er ferdig.
 - Pass på at skriveren har tilstrekkelig plass rundt seg for å skrive ut uten å sette seg fast.
 - Fjern plastrester og rens utskriftsplaten med sprit  før og etter utskrift. Blårens finnes på kjøkkenet. Ikke bruk metall på utskriftsplaten.
 - Plastruller som ikke er i bruk skal ligge i plastpose med en liten "tørkepose" i papir. Plast som ligger fritt suger til seg fuktighet og blir ødelagt.
