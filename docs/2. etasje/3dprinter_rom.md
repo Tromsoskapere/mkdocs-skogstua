@@ -4,7 +4,7 @@ Les gjennom hele dette dokumentet før du skriver ut noe for første gang, selv 
 
 Om du ikke har brukt en 3D-skriver, få hjelp av noen som kan eller kom på et introduksjonskurs. Alle Tromsøskapere har lyst til å hjelpe og dele informasjon.
 
-Fornuftige folk å kontakte med via e-post er [Kenneth](kenneth@tromsoskapere.no), [Snorre](mailto:snorre@tromsoskapere.no), [Alf](mailto:alf@tromsoskapere.no) og [Torbjørn](mailto:torbjorn@tromsoskapere.no). Du kan også snakke med folk direkte på Discord.
+Fornuftige folk å kontakte via e-post er [Kenneth](kenneth@tromsoskapere.no), [Snorre](mailto:snorre@tromsoskapere.no), [Alf](mailto:alf@tromsoskapere.no) og [Torbjørn](mailto:torbjorn@tromsoskapere.no). Du kan også snakke med folk direkte på Discord.
 
 ### Sikkerhet og hensyn til andre
 
