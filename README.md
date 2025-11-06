@@ -17,7 +17,7 @@ For å kunne foreslå endringer som beskrevet i guiden under, må du ha en grati
 1.  **Opprett bruker:** Gå til [github.com](https://github.com) for å registrere deg hvis du ikke har en bruker fra før.
 2.  **Be om tilgang:** Send en melding til en administrator (Alf eller Torbjørn, eller i Discord-kanalen) med GitHub-brukernavnet ditt. Du må legges til som medlem i organisasjonen vår før du kan lagre endringer.
 
-Når du har fått tilgang, kan du følge guiden under. *(For erfarne github brukere: Det er også mulig å clone repoet og jobbe på en ekstern PR som kan merges.)*
+Når du har fått tilgang, kan du følge guiden under. *(For erfarne GitHub brukere: Det er også mulig å clone repoet og jobbe på en ekstern PR som kan merges.)*
 
 ---
 
