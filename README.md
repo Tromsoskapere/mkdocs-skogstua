@@ -2,9 +2,9 @@
 
 Velkommen! Dette er "lageret" (repoet) for all dokumentasjon på [docs.tromsoskapere.no](https://docs.tromsoskapere.no)
 
-Målet er at alle i foreningen enkelt skal kunne bidra. Du trenger ikke installere egen programvare for å gjøre enkle tekstendringer. Ved å redigere filer på github vil dette oppdatere hjemmesiden, etter en admin har godkjent endringen.
+Målet er at alle i foreningen skal kunne bidra med oppdatering av dokumentasjonen for verkstedet. Du trenger ikke installere egen programvare for å gjøre enkle tekstendringer. Ved å redigere filer på github vil dette oppdatere hjemmesiden, etter en admin har godkjent endringen.
 
-Navigasjonsstrukturen på hjemmesiden er en direkte avspeiling av katalogstrukturen i /docs/. Filene er lagret i [markdown-format](https://www.markdownguide.org/basic-syntax/), med .md endelse. Hver fil blir en egen html side. Alle .md filer må starte med `# Tittel`. Bilder laster du opp i samme mappe og legger inn med `![Bildetekst](eksempelbilde.png)`
+Navigasjonsstrukturen på dockumentasjonssiden er en direkte avspeiling av katalogstrukturen i /docs/. Filene er lagret i [markdown-format](https://www.markdownguide.org/basic-syntax/), med .md endelse. Hver fil blir en egen html side. Alle .md filer må starte med `# Tittel`. Bilder laster du opp i samme mappe og legger inn med `![Bildetekst](eksempelbilde.png)`
 
 ---
 
