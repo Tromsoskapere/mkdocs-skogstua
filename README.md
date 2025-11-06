@@ -1,4 +1,4 @@
-# Dokumentasjon for Skogstua fellesverksted
+# Dokumentasjon for 🏡 Skogstua fellesverksted 🏡
 
 Velkommen! Dette er "lageret" (repoet) for all dokumentasjon på [docs.tromsoskapere.no](https://docs.tromsoskapere.no)
 
