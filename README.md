@@ -1,6 +1,6 @@
 # Dokumentasjon for Skogstua fellesverksted
 
-Velkommen! Dette er "lageret" (repoet) for all dokumentasjon på docs.tromsoskapere.no.
+Velkommen! Dette er "lageret" (repoet) for all dokumentasjon på [docs.tromsoskapere.no](https://docs.tromsoskapere.no)
 
 Målet er at alle i foreningen enkelt skal kunne bidra. Du trenger ikke installere noe programvare for å gjøre enkle tekstendringer. Ved å redigere filer på github vil dette oppdatere hjemmesiden, etter en admin har godkjent endringen.
 
