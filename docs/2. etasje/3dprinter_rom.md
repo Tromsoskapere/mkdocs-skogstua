@@ -28,7 +28,7 @@ Bruk [Bambu Studio](https://bambulab.com/en-eu/download/studio) for å skrive ut
 
 IP-adressen til skriveren er **10.8.0.20** og tilgangskoden du trenger for tilgang er **32481046**.
 
-![IP-adresse og tilgangskode](bambu_labs_access_code.jpg)
+![IP-adresse og tilgangskode](bambu_labs_access_code.jpg =250x)
 
 Skriveren er delt til alle på nettverket via LAN Only-modus. Du kan ikke knytte skriveren til din appen på din egen smarttelefon, så fjernstyring eller -overvåking av skriveren via internett støttes ikke for nå.
 
