@@ -24,7 +24,7 @@ Bambu Lab A1 er en nybegynnervennlig 3D-skriver med helautomatisk kalibrering og
 
 ### Bruk
 
-Bruk [Bambu Studio](https://bambulab.com/en-eu/download/studio) for å skrive ut til 3D-printeren.
+Bruk [Bambu Studio](https://bambulab.com/en-eu/download/studio) for å skrive ut til 3D-skriveren.
 
 IP-adressen til skriveren er **10.8.0.20** og tilgangskoden du trenger for tilgang er **32481046**.
 
@@ -36,15 +36,15 @@ Vi jobber med en løsning for å forbedre dette.
 
 ### Pris
 
-Det er gratis å bruke printeren. Du betaler kun for plasten du bruker under utskriving.
+Det er gratis å bruke skriveren. Du betaler kun for plasten du bruker under utskriving.
 
-Du skal betale for *all* plast som brukes av printeren, inkludert prototyper, feilutskrifter, støtteplast og "printerbæsj" som printeren spytter ut når den starter eller bytter farge.
+Du skal betale for *all* plast som brukes av skriveren, inkludert prototyper, feilutskrifter, støtteplast og "skriverbæsj" som skriveren spytter ut når den starter eller bytter farge.
 
 **Prisen er 50 øre per gram plast, uansett hvilken type. Vipps til 944927 når du er ferdig.**
 
 Legg med en kort beskrivelse av hva betalingen gjelder.
 
-Vi skal sette opp en kjøkkenvekt og en fangstboks for printerbæsj slik at det blir enkelt å finne ut nøyaktig hvor mye du har brukt. Inntil videre må du bruke funksjonen i Bambu Studio som sier hvor mange gram som blir brukt pluss skjønn for printerbæsj og annet svinn.
+Vi skal sette opp en kjøkkenvekt og en fangstboks for skriverbæsj slik at det blir enkelt å finne ut nøyaktig hvor mye du har brukt. Inntil videre må du bruke funksjonen i Bambu Studio som sier hvor mange gram som blir brukt pluss skjønn for skriverbæsj og annet svinn.
 
 ### Plast
 
