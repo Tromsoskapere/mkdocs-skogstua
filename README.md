@@ -4,18 +4,20 @@ Velkommen! Dette er "lageret" (repoet) for all dokumentasjon på [docs.tromsoska
 
 Målet er at alle i foreningen enkelt skal kunne bidra. Du trenger ikke installere egen programvare for å gjøre enkle tekstendringer. Ved å redigere filer på github vil dette oppdatere hjemmesiden, etter en admin har godkjent endringen.
 
+Navigasjonsstrukturen på hjemmesiden er en direkte avspeiling av katalogstrukturen i /docs/. Filene er lagret i markdown-format, med .md endelse. Hver fil blir en egen html side. Alle .md filer må starte med '# Tittel'. Denne vil bli menytittel og side-tittel, og artikkel-tittel. Bilder laster du opp i samme mappe og legger inn med `![Bildetekst](eksempelbilde.png)`
+
 ---
 
 ## Veiledning
 
-### 🛑 Før du starter: Du må ha en GitHub-bruker
+### 🛑 Før du starter: GitHub-bruker og tilgang
 
-For å kunne foreslå endringer som beskrevet i guiden under, må du ha din egen gratis GitHub-bruker.
+For å kunne foreslå endringer som beskrevet i guiden under, må du ha en gratis GitHub-bruker.
 
 1.  **Opprett bruker:** Gå til [github.com](https://github.com) for å registrere deg hvis du ikke har en bruker fra før.
 2.  **Be om tilgang:** Send en melding til en administrator (Alf eller Torbjørn, eller i Discord-kanalen) med GitHub-brukernavnet ditt. Du må legges til som medlem i organisasjonen vår før du kan lagre endringer.
 
-Når du har fått tilgang, kan du følge guiden under.
+Når du har fått tilgang, kan du følge guiden under. *(For erfarne github brukere: Det er også mulig å clone repoet og jobbe på en ekstern PR som kan merges.)*
 
 ---
 
