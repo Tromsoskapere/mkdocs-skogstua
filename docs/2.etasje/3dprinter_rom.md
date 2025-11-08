@@ -9,10 +9,11 @@ Fornuftige folk å kontakte via e-post er [Kenneth](kenneth@tromsoskapere.no), [
 ### Sikkerhet og hensyn til andre
 
 - 3D-utskrift smelter plast, så her kan det fort bli varmt!
-- Utskriftsplaten og føringskablene for plast er dekt med helseskadelige fluorkarboner. Vask hendene etter berøring.
+- Gjør deg kjent med hvor nærmeste brannslukkingsapparat befinner seg.
 - Vær aller helst tilstede i huset under utskrift og ta med deg utskriften når du er ferdig.
+- Utskriftsplaten og føringskablene for plast er dekt med helseskadelige fluorkarboner. Vask hendene etter berøring.
 - Pass på at skriveren har tilstrekkelig plass rundt seg for å skrive ut uten å sette seg fast.
-- Fjern plastrester og rens utskriftsplaten med sprit  før og etter utskrift. Blårens finnes på kjøkkenet. Ikke bruk metall på utskriftsplaten.
+- Fjern plastrester og rens utskriftsplaten med blårens før og etter utskrift. **Ikke bruk metallredskaper på utskriftsplaten!**
 - Plastruller som ikke er i bruk skal ligge i plastpose med en liten "tørkepose" i papir. Plast som ligger fritt suger til seg fuktighet og blir ødelagt.
 - Når du bytter plastrull skal du ikke la løse ender henge fritt på rullen som tas ut av skriveren. Putt den løse enden inn i hull på kanten av platrullen og stram til. Løse ender fører til at plasten setter seg fast under utskrift, og printeren stopper opp med en feilmelding.
 - Rydd opp når du er ferdig. Forlat rommet i litt bedre tilstand enn du fant det.
@@ -39,13 +40,13 @@ Vi jobber med en løsning for å forbedre dette.
 
 Det er gratis å bruke skriveren — du betaler kun for utskriftsplast.
 
-Betal for *all* plast som brukes av skriveren, inkludert prototyper, feilutskrifter, støtteplast og "skriverbæsj" som skriveren spytter ut når den starter eller bytter farge.
+Betal for *all* plast som brukes av skriveren, inkludert prototyper, feilutskrifter, støtteplast og purge-filament som skriveren spytter ut når den starter eller bytter farge.
 
-**Prisen er 50 øre per gram, uansett type. Vipps til 944927 når du er ferdig.**
+**Prisen er 50 øre per gram, uansett type. Vipps til 944927 og velg "Plast til 3D-Printer" når du er ferdig.**
 
-Legg med en kort beskrivelse av hva betalingen gjelder.
+Vi skal sette opp en kjøkkenvekt og en fangstboks for purge-filament slik at det blir enkelt å finne ut nøyaktig hvor mye du har brukt. Inntil videre må du bruke funksjonen i Bambu Studio som sier hvor mange gram som blir brukt pluss skjønn for purge-filament og annet svinn.
 
-Vi skal sette opp en kjøkkenvekt og en fangstboks for skriverbæsj slik at det blir enkelt å finne ut nøyaktig hvor mye du har brukt. Inntil videre må du bruke funksjonen i Bambu Studio som sier hvor mange gram som blir brukt pluss skjønn for skriverbæsj og annet svinn.
+![VIPPS Nummer Tromsøskapere](QR-code_Tromsøskapere_944927.png)
 
 ### Plast til utskriving
 
@@ -56,6 +57,3 @@ Gjenbruksrullene inkluderer en bruksanvisning for hvordan du gjør dette.
 Du skal aldri prøve å montere en gjenbruksrull direkte på skriveren.
 
 Gjenbruksrullene inkluderer et klistremerke som sier hvilken type plast det er snakk om. Når du putter gjenbruksrullen på en trommel, putt klistremerket på trommelen slik at neste person som skriver ut vet hvilken type plast det er snakk om (PLA, PETG, ASA etc).
-
-
-
