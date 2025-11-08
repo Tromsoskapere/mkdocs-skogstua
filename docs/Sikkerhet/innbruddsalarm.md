@@ -2,7 +2,7 @@
 
 [Elotec](https://elotecajax.no) har sponset Tromsøskapere med et komplett inbruddsalarmsystem.
 
-![Ajax Betjeningspanel](/images/Elotec-Ajax-keypad.png)
+![Ajax Betjeningspanel](/images/Elotec-Ajax-keypad.png){: style="width:50%"}
 
 ## Statusindikatorer
 
