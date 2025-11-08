@@ -1,4 +1,4 @@
-# Kreativt rom – et sted for skaperglede
+# Kreativt rom
 
 I vårt kreative rom hos Tromsøskapere kan du la fantasien løpe løpsk! Her finnes plass til alt fra maling og tegning til søm, tekstilarbeid og mindre håndverksprosjekter. Enten du vil eksperimentere med akryl, akvarell eller oljemaling, prøve deg på keramikk, lage unike kort, dekorere gjenstander eller sy klær og tilbehør, finner du både inspirasjon og rom til å prøve.
 

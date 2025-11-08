@@ -1,4 +1,4 @@
-# Uthuset – praktisk lagerplass
+# Uthuset
 
 Uthuset fungerer som vårt praktiske redskapslager og søppellager. Her kan man oppbevare hageredskaper, verktøy og annet utstyr som brukes på tomta, samt ha et ryddig sted for avfallshåndtering.
 
