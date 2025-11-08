@@ -9,4 +9,4 @@ Prisliste kiosk:
 - Kake: 35 kr
 
 Betaling i kiosken gjøres på VIPPS nr 28533 "Tromsøskapere Kiosk"
-[!Vipps nummer Tromsøskapere Kiosk](QR-code_TromsøskapereKiosk_28533.png)
+[!Vipps nummer Tromsøskapere Kiosk](/docs/images/QR-code_TromsøskapereKiosk_28533.png)
