@@ -22,7 +22,4 @@ Du må lese sikkerhetsreglene for en maskin før du bruker den for første gang.
 
 ![Nordlys over Skogstua](/images/skogstua_natt.jpg "Skogstua fellesverksted")
 
-
-
-
-
+{{ pagetree }}
