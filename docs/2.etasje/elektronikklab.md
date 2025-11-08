@@ -3,4 +3,4 @@ Elektronikklabben er stedet for alle som vil utforske elektronikk og realisere e
 
 Rommet er utstyrt med arbeidsbenker, loddeutstyr og et bredt utvalg av komponenter og deler som du kan forsyne deg av mot betaling til Vipps 944927, merk betalingen med komponenter. Elektronikklabben er både et sted for læring, problemløsning og kreativ teknologi.
 
-![Vippskode tromsøskapere](/images/QR-code_Tromsøskapere_944927.png)
+![Vippskode tromsøskapere](/images/QR-code_Tromsøskapere_944927.png){: style="width:50%"}

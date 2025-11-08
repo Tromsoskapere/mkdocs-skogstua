@@ -46,7 +46,7 @@ Betal for *all* plast som brukes av skriveren, inkludert prototyper, feilutskrif
 
 Vi skal sette opp en kjøkkenvekt og en fangstboks for purge-filament slik at det blir enkelt å finne ut nøyaktig hvor mye du har brukt. Inntil videre må du bruke funksjonen i Bambu Studio som sier hvor mange gram som blir brukt pluss skjønn for purge-filament og annet svinn.
 
-![VIPPS Nummer Tromsøskapere](/images/QR-code_Tromsøskapere_944927.png)
+![VIPPS Nummer Tromsøskapere](/images/QR-code_Tromsøskapere_944927.png){: style="width:50%"}
 
 ### Plast til utskriving
 
