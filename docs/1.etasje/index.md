@@ -1,3 +1,3 @@
 # 1. etasje
 
-![Plantegning første etasje](/docs/images/Skogstua_1etg.png)
+![Plantegning første etasje](/images/Skogstua_1etg.png)
