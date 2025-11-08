@@ -1,7 +1,7 @@
 # Styrer rekkefølgen på toppnivå-mappene
 nav:
   - index.md
-  - sikkerhet.md
+  - Sikkerhet
   - 1.etasje
   - 2.etasje
   - kjelleren
