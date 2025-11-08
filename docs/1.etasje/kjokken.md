@@ -2,6 +2,7 @@
 Viktig for trivsel på huset! Kaffe, matlaging, kiosk osv osv.
 
 Prisliste kiosk:
+
 - Kaffe: 5 kr
 - Brus: 25 kr
 - Vaffel: 20 kr
