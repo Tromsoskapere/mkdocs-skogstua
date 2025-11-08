@@ -20,7 +20,7 @@ Skogstua fellesverksted ligger i [Lærerskolevegen 8](https://maps.app.goo.gl/ry
 ### ⚠️ VIKTIG: Sikkerhet først!
 Du må lese sikkerhetsreglene for en maskin før du bruker den for første gang. Du finner de generelle reglene for hele huset på vår felles [Sikkerhetsside](sikkerhet.md).
 
-![Nordlys over Skogstua](skogstua_natt.jpg "Skogstua fellesverksted")
+![Nordlys over Skogstua](/docs/images/skogstua_natt.jpg "Skogstua fellesverksted")
 
 
 

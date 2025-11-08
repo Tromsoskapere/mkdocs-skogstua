@@ -20,7 +20,7 @@ Fornuftige folk å kontakte via e-post er [Kenneth](kenneth@tromsoskapere.no), [
 
 ## Bambu Labs A1 med AMS
 
-![Bambu Labs A1 med AMS](bambu_labs_a1_ams.jpg)
+![Bambu Labs A1 med AMS](/docs/images/bambu_labs_a1_ams.jpg)
 
 Bambu Lab A1 er en nybegynnervennlig 3D-skriver med helautomatisk kalibrering og mulighet for flerfargeutskrift via AMS-tilbehøret.
 
@@ -30,7 +30,7 @@ Bruk [Bambu Studio](https://bambulab.com/en-eu/download/studio) for å skrive ut
 
 IP-adressen til skriveren er **10.8.0.20** og tilgangskoden du trenger for tilgang er **32481046**.
 
-![IP-adresse og tilgangskode](bambu_labs_access_code.jpg)
+![IP-adresse og tilgangskode](/docs/images/bambu_labs_access_code.jpg)
 
 Skriveren er delt til alle på nettverket via LAN Only-modus. Du kan ikke knytte skriveren til din appen på din egen smarttelefon, så fjernstyring eller -overvåking av skriveren via internett støttes ikke for nå.
 
