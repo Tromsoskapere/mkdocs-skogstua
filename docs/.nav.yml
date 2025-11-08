@@ -2,8 +2,8 @@
 nav:
   - index.md
   - sikkerhet.md
-  - 1. etasje
-  - 2. etasje
+  - 1.etasje
+  - 2.etasje
   - kjelleren
   - hagen
   - ... # Inkluderer andre filer/mapper du glemte  
