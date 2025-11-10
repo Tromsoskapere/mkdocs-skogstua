@@ -1,6 +1,7 @@
 site_name: Skogstua fellesverksted
 site_url: https://docs.tromsoskapere.no/ 
-repo_url: https://github.com/Tromsoskapere/mkdocs-skogstua/ 
+repo_url: https://github.com/Tromsoskapere/mkdocs-skogstua/
+edit_uri: edit/main/docs/
 repo_name: mkdocs-skogstua
 
 theme:
@@ -8,6 +9,8 @@ theme:
   language: nb
   logo: logo.svg
   favicon: logo.svg
+  icon:
+    repo: fontawesome/brands/github
   palette:
 
     # Palette toggle for automatic mode
@@ -29,13 +32,14 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Bytt til lyst tema
-        
+
   features:
     - navigation.sections
     - navigation.top
     - navigation.indexes
     - search.suggest
     - search.highlight
+    - content.action.edit
 
 plugins:
   - awesome-nav
