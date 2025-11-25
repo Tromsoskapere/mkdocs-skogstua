@@ -1,11 +1,21 @@
 # Innbruddsalarm
 
-[Elotec](https://elotecajax.no) har sponset Tromsøskapere med et komplett inbruddsalarmsystem.
+Tromsøskapere har fått et komplett innbruddsalarmsystem spons­et av [Elotec](https://elotecajax.no), som nå gir oss full sikring av hele huset. Systemet er moderne, driftssikkert og sørger for at utstyr og lokaler alltid er godt beskyttet.
 
-![Ajax Betjeningspanel](/images/Elotec-Ajax-keypad-white.png#only-light){: style="width:50%"}
-![Ajax Betjeningspanel](/images/Elotec-Ajax-keypad-black.png#only-dark){: style="width:50%"}
+Medlemmer som har 24/7-tilgang får sin egen personlige alarmkode, slik at de trygt og enkelt kan bruke huset når de ønsker.
+
+## ⚠️ Viktig
+
+All tukling med alarmsystemet vil umiddelbart utløse alarmen – uansett om den er aktivert eller ikke.
+Systemet aktiveres automatisk ved midnatt, men du skal alltid aktivere alarmen når du forlater Skogstua.
+
+Disse instruksjonene kan bli endret etter hvert som vi forbedrer og automatiserer medlemssystemet vårt.
+
+Kontaktperson for innbruddsalarmen er [Alf](mailto:alf@tromsoskapere.no)
 
 ## Statusindikatorer
+![Ajax Betjeningspanel](/images/Elotec-Ajax-keypad-white.png#only-light){: style="width:50%"}
+![Ajax Betjeningspanel](/images/Elotec-Ajax-keypad-black.png#only-dark){: style="width:50%"}
 
 Øverst på tastaturet finnes 4 statusindikatorer:
 
@@ -39,14 +49,14 @@ MERK: Systemet aktiveres også automatisk ved midnatt, men du skal alltid aktiv
 Styrerommet er en egen alarmsone som kun styret og utvalgte verv har tilgang til.
 Alarmen på rommet vil ikke deaktiveres når fellesarealene deaktivers men må manuelt slås av.
 
-### Slik deaktiverer du alarmen på styrerommet:
+### 🔓 Slik deaktiverer du alarmen på styrerommet
 
 1. Aktiver tastaturet
 2. Tast din personlige alarmkode etterfulgt av *4
 3. Trykk på åpen sirkel (nederst i midten på tastaturet).
 4. Du vil høre to pip som bekrefter at alarmen er deaktivert.
 
-### Slik aktiverer du alarmen på styrerommet:
+### 🔒 Slik aktiverer du alarmen på styrerommet
 
 1. Aktiver tastaturet.
 2. Tast inn din personlige alarmkode etterfulgt av *4
@@ -70,17 +80,10 @@ For å bruke kodepanelet må appbrukere først sette sin personlige kode i appen
 
 Når du har laget en personlig kode kan du bruke betjeningspanelet. Den eneste forskjellen er at du må taste din bruker ID etterfulgt av * før du taster koden. Din bruker ID finner du under Passordinnstillinger i appen.
 
-#### Eksempel, aktivering av alarm:
+#### 🔒 Aktivering av alarm med ID
 
 1. Aktiver tastaturet.
 2. Tast inn din bruker ID etterfulgt av *
 3. Tast inn din personlige alarmkode.
 4. Trykk på lukket sirkel (nederst til venstre på tastaturet). Alarmen vil pipe og starte utgangsnedtellingen på 30 sekunder.
 5. Gå ut gjennom inngangsdøren. Når døren lukkes, aktiveres systemet automatisk.
-
-## ⚠️ Viktig:
-All tukling med alarmsystemet vil umiddelbart utløse alarmen – uansett om den er aktivert eller ikke.
-
-Disse instruksjonene kan bli endret etter hvert som vi forbedrer og automatiserer medlemssystemet vårt.
-
-Kontaktperson for innbruddsalarmen er [Alf](mailto:alf@tromsoskapere.no)
