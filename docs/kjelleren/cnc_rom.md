@@ -2,7 +2,7 @@
 
 Her står våre CNC-freser. 
 
-## Maskin: MPCNC Lowrider4 fra v1engineering.
+## Stor CNC: MPCNC Lowrider4 fra v1engineering.
 Arbeidsområde: 1440x2880 (byggeplatestørrelse)
 [Dokumentasjon hos v1e.com](https://docs.v1e.com/lowrider/)
 
@@ -23,5 +23,5 @@ Router: Dewalt håndoverfres D26204-QS
 -   Fest alltid materialet skikkelig. En løs del kan bli et farlig prosjektil.
 -   Bruk avsugssystemet. Fint støv er helseskadelig.
 
-## Maskin: Bravo CNC BE303
+## Mindre CNC: Bravo CNC BE303
 Mindre arbeidsområde, fin for gravering, skjæring i plast, myke metaller ol. Foreløpig ikke liv i denne. Må enten avlese/dekode proprietær kode og bruke den på en moderne gkode-sender eller bytte ut kontrollkort med et open source alternativ.
