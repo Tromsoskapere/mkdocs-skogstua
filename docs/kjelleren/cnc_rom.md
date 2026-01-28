@@ -11,10 +11,10 @@ Arbeidsområde: 1440x2880 (byggeplatestørrelse)
 Collet-størrelser: 1/4 " og 8mm
 
 ### Huskeliste for bruk (foreløpig ikke utfyllende!)
-Husk å start og stopp maskina med blokkene under gantry.
-Logg på wifi ap "FluidNC" for styring. Passord: 12345678
-Feedrate 5000mm/m
-Probetykkelse 0.8mm
+- Husk å start og stopp maskina med blokkene under gantry.
+- Logg på wifi ap "FluidNC" for styring. Passord: 12345678
+- Feedrate 5000mm/m
+- Probetykkelse 0.8mm
 
 #### Sikkerhet 🚨
 
