@@ -8,7 +8,7 @@ Arbeidsområde: 1440x2880 (byggeplatestørrelse)
 
 Collet-størrelser: 1/4 " og 8mm
 
-Router: Dewalt håndoverfres D26204-QS (Tislvarende amerikans modell: DWP611)
+Router: Dewalt håndoverfres D26204-QS (Amerikansk modellversjon: DWP611)
 
 ### Huskeliste for bruk (foreløpig ikke utfyllende!)
 - Husk å start og stopp maskina med blokkene under gantry.
