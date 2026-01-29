@@ -6,7 +6,7 @@ Her står våre CNC-freser.
 Arbeidsområde: 1440x2880 (byggeplatestørrelse)
 [Dokumentasjon hos v1e.com](https://docs.v1e.com/lowrider/)
 
-Collet-størrelser: 1/4 " og 8mm
+Collet-størrelser(spennhylse/spenntange): 1/4 " og 8mm (3.175mm på vei!)
 
 Router: Dewalt håndoverfres D26204-QS (Amerikansk modellversjon: DWP611)
 
