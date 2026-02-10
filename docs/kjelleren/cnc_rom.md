@@ -1,9 +1,8 @@
 # CNC-rom
 
-Her står våre CNC-freser. 
-
 ## Stor CNC: MPCNC Lowrider4 fra v1engineering.
-Arbeidsområde: 1220x2440 (byggeplatestørrelse)
+Arbeidsområde XYZ=1220x2450x100 mm (byggeplatestørrelse)
+
 [Dokumentasjon hos v1e.com](https://docs.v1e.com/lowrider/)
 
 Collet-størrelser(spennhylse/spenntange): 1/4 " og 8mm (3.175mm på vei!) **NB: 1/4" og 6mm passer ikke i samme spennhylse**
@@ -11,10 +10,11 @@ Collet-størrelser(spennhylse/spenntange): 1/4 " og 8mm (3.175mm på vei!) **NB:
 Router: Dewalt håndoverfres D26204-QS (Amerikansk modellversjon: DWP611)
 
 ### Huskeliste for bruk (foreløpig ikke utfyllende!)
-- Husk å start og stopp maskina med gantry oppå blokkene, og begge "vognene" helt ned på bordet mot stopperne. (bilde kommer)
+- Husk å starte **og stoppe** maskina med gantry oppå blokkene, og begge "vognene" helt nederst på bordet, mot stopperne. (bilde kommer)
 - Logg på wifi ap "FluidNC" for styring. Passord: 12345678
 - Travel rate 5000mm/m
 - Probetykkelse 0.8mm
+- Anbefalt feed rate (kutte-fart) 1000mm/m
 
 #### Sikkerhet 🚨
 
