@@ -9,12 +9,20 @@ Collet-størrelser(spennhylse/spenntange): 1/4 " og 8mm (3.175mm på vei!) **NB:
 
 Router: Dewalt håndoverfres D26204-QS (Amerikansk modellversjon: DWP611)
 
-### Huskeliste for bruk (foreløpig ikke utfyllende!)
+### Huskeliste for bruk
 - Husk å starte **og stoppe** maskina med gantry oppå blokkene, og begge "vognene" helt nederst på bordet, mot stopperne. (bilde kommer)
 - Logg på wifi ap "FluidNC" for styring. Passord: 12345678
 - Travel rate 5000mm/m
 - Probetykkelse 0.8mm
 - Anbefalt feed rate (kutte-fart) 1000mm/m
+- Enkel arbeidsflyt:
+  - Sørg for at gantry står oppå blokkene og helt nederst (mot deg)
+  - Slå på strømmen
+  - Jog/styr fresestålet over materialet til planlagt null-punkt
+  - Sett X0 og Y0 <img width="129" height="46" alt="image" src="https://github.com/user-attachments/assets/cf19dec7-69cd-4251-8c33-6d521a8c8cd2" />
+  - beveg fresestålet inntil materialet og sett Z0, evt bruk probefunksjon med 0.8 mm
+  - Klar, ferdig, kjør!
+
 
 #### Sikkerhet 🚨
 
