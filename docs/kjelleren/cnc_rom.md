@@ -17,10 +17,11 @@ Router: Dewalt håndoverfres D26204-QS (Amerikansk modellversjon: DWP611)
 - Anbefalt feed rate (kutte-fart) 1000mm/m
 - Enkel arbeidsflyt:
   - Sørg for at gantry står oppå blokkene og helt nederst (mot deg)
-  - Slå på strømmen
+  - Slå på strømmen på styringsboksen på veggen
   - Jog/styr fresestålet over materialet til planlagt null-punkt
   - Sett X0 og Y0 <img width="129" height="46" alt="image" src="https://github.com/user-attachments/assets/cf19dec7-69cd-4251-8c33-6d521a8c8cd2" />
-  - beveg fresestålet inntil materialet og sett Z0, evt bruk probefunksjon med 0.8 mm
+  - Beveg fresestålet ned på materialet og sett Z0, evt bruk probefunksjon med 0.8 mm
+  - Slå på fresen med manuell bryter på styringsboks, eller automatisk med GCODE.
   - Klar, ferdig, kjør!
 
 
