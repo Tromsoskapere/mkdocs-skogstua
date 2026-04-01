@@ -11,7 +11,7 @@ Router: Dewalt håndoverfres D26204-QS (Amerikansk modellversjon: DWP611)
 
 ### Huskeliste for bruk
 - Husk å starte **og stoppe** maskina med gantry oppå blokkene, og begge "vognene" helt nederst på bordet, mot stopperne. (bilde kommer)
-- Logg på wifi ap "FluidNC" for styring. Passord: 12345678
+- styring gjøres med [http://lowridercnc.local](http://lowridercnc.local) når du er pålogget Tromsoskapere wifi. 
 - Travel rate 5000mm/m
 - Probetykkelse 0.8mm
 - Anbefalt feed rate (kutte-fart) 1000mm/m
