@@ -29,5 +29,5 @@ Stramming, tilting av blad og justering av støttene må klareres med styret.
 - Meld fra til styret om feil, slitasje eller hvis bladet begynner å vandre
 
 ## Lenker
-[Record 350 – produktside](https://verktoyas.no/produkter/maskiner/baandsager-tilbehoer/baandsager/record-baandsag-bs350-m-stativ)
-[Bruksanvisning på norsk](RecordPowerBS350Norsk.pdf)
+- [Record 350 – produktside](https://verktoyas.no/produkter/maskiner/baandsager-tilbehoer/baandsager/record-baandsag-bs350-m-stativ)
+- [Bruksanvisning på norsk](RecordPowerBS350Norsk.pdf)
