@@ -1,16 +1,33 @@
 # Stor båndsag
-En båndsag er et nyttig verktøy, men den er svært utsatt for feil bruk og selv de minste justeringer. Den er en følsom maskin, slik at det er viktig å bruke den med særlig aktelse. Den store båndsaga er primært ment for å kløyve stokker/trevirke. Detaljarbeid gjøres på den lille.
-Rutiner for båndsaga:
+Båndsagen er primært ment for å kløyve stokker og grovt trevirke. For detaljarbeid brukes den lille båndsagen.
 
-- Ingen skarpe svinger! Bladet må ikke bøyes sidelengs
-- Ikke dytt materialet for hardt - det sliter på bladet. Bladet må sage i "naturlig" fart. 
-- Stramming og tilting/justering av blad og justeringer av støttene må klareres med styret
-- De eneste hjulene og spakene som skal endres er disse:
+Båndsagen er en følsom maskin som er lett å skade ved feil bruk. Bruk den med omhu og respekt.
+
+## Før du starter
+- Sjekk at bladet er riktig spent og at støttene sitter riktig
+- Kontroller at bladet ikke har synlige sprekker eller skader
+- Bruk vernebriller og hørselvern
+- Unngå løstsittende klær, hansker og smykker nær maskinen
+
+## Under bruk
+- Ingen skarpe svinger – bladet må ikke bøyes sidelengs
+- Før materialet rolig fremover – la bladet jobbe i sin naturlige fart, ikke press
+- Hold fingrene unna bladet og bruk en skyvepinne for smale snitt
+- Stå til siden, ikke rett bak materialet, i tilfelle bladet ryker
+- Ikke forlat maskinen mens den er i gang
+
+## Justeringer
+Kun disse hjulene og spakene skal endres av vanlige brukere:
 
 ![Illustrasjon av båndsag](690125_8.jpg)
 
+Stramming, tilting av blad og justering av støttene må klareres med styret.
 
-Fra Verktøy AS:
-[Record 350](https://verktoyas.no/produkter/maskiner/baandsager-tilbehoer/baandsager/record-baandsag-bs350-m-stativ)
+## Etter bruk
+- Slå av maskinen og vent til bladet har stanset helt
+- Rydd opp sagflis fra maskin og gulv
+- Meld fra til styret om feil, slitasje eller hvis bladet begynner å vandre
 
+## Lenker
+[Record 350 – produktside](https://verktoyas.no/produkter/maskiner/baandsager-tilbehoer/baandsager/record-baandsag-bs350-m-stativ)
 [Bruksanvisning på norsk](RecordPowerBS350Norsk.pdf)
