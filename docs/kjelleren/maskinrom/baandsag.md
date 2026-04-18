@@ -7,7 +7,7 @@ Rutiner for båndsaga:
   - Stramming og tilting/justering av blad og justeringer av støttene må klareres med styret
   - De eneste hjulene og spakene som skal endres er disse:
 
-
+![Illustrasjon av båndsag](690125_8.jpg)
 
 
 Fra Verktøy AS:
