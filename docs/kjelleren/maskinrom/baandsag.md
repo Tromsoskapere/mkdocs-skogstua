@@ -1,5 +1,4 @@
 # Stor båndsag
-
 En båndsag er et nyttig verktøy, men den er svært utsatt for feil bruk og selv de minste justeringer. Den er en følsom maskin, slik at det er viktig å bruke den med særlig aktelse. Den store båndsaga er primært ment for å kløyve stokker/trevirke. Detaljarbeid gjøres på den lille.
 Rutiner for båndsaga:
   - Ingen skarpe svinger! Bladet må ikke bøyes sidelengs
