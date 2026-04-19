@@ -15,6 +15,9 @@ Båndsagen er en følsom maskin som er lett å skade ved feil bruk. Bruk den med
 - Hold fingrene unna bladet og bruk en skyvepinne for smale snitt
 - Stå til siden, ikke rett bak materialet, i tilfelle bladet ryker
 - Ikke forlat maskinen mens den er i gang
+- Tips for klyving:
+  - Lag en strek med linjal og sag på frihånd!
+  - Ikke bruk anlegget - da vil bladet raskt dras ut og vri seg. Hvis du ønsker anlegg: fest en pinne mot anlegget på akkurat samme høyde som tennene på bladet og bruk denne for mer presise kutt.
 
 ## Justeringer
 Kun disse hjulene og spakene skal endres av vanlige brukere:
