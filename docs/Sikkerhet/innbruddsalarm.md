@@ -2,7 +2,7 @@
 
 Tromsøskapere har fått et komplett innbruddsalarmsystem spons­et av [Elotec](https://elotecajax.no), som nå gir oss full sikring av hele huset. Systemet er moderne, driftssikkert og sørger for at utstyr og lokaler alltid er godt beskyttet.
 
-Medlemmer som har 24/7-tilgang får sin egen personlige alarmkode, slik at de trygt og enkelt kan bruke huset når de ønsker.
+Medlemmer som har betalt for 24/7-tilgang får mulighet til å låse opp huset fra [medlemsportalen](https://portal.tromsoskapere.no), slik at de trygt og enkelt kan bruke huset når de ønsker.
 
 ## ⚠️ Viktig
 
@@ -12,6 +12,21 @@ Systemet aktiveres automatisk ved midnatt, men du skal alltid aktivere alarmen n
 Disse instruksjonene kan bli endret etter hvert som vi forbedrer og automatiserer medlemssystemet vårt.
 
 Kontaktperson for innbruddsalarmen er [Alf](mailto:alf@tromsoskapere.no)
+
+
+## 🔓 Slik deaktiverer du alarmen
+
+Når du ankommer åpner du [medlemsportalen](https://portal.tromsoskapere.no)
+Etter å ha logget inn kan du velge å åpne døren, da vil alarmen deaktiveres og døren låses opp.
+
+## 🔒 Slik aktiverer du alarmen
+
+Sørg for at alle dører og vinduer er lukket, inkludert inngangsdøren.
+
+Siste person som forlater Skogstua må aktivere alarmen og låse døren, dette gjøres fra nettbrettet som er montert til venstre for ytterdøren.
+Hold inne låsesymbolet til ringen er sluttet og følg instruksene på skjermen.
+
+# Følgende gjelder medlemmer av styret, ordinære medlemmer forholder seg til instruksen ovenfor.
 
 ## Statusindikatorer
 ![Ajax Betjeningspanel](/images/Elotec-Ajax-keypad-white.png#only-light){: style="width:50%"}
@@ -23,26 +38,6 @@ Kontaktperson for innbruddsalarmen er [Alf](mailto:alf@tromsoskapere.no)
 - Åpen sirkel, Alarmen er deaktivert
 - Lukket sirkel med åpen sirkel, nattmodus er aktivert (Ikke i bruk)
 - Lukket sirkel med X, feilindikator
-
-## 🔓 Slik deaktiverer du alarmen
-
-Når du går inn hoveddøren, starter alarmen en nedtelling på 1 minutt. Du må deaktivere systemet i løpet av denne tiden for å unngå at alarmen utløses.
-
-1. Aktiver tastaturet ved å trykke på en av tastene.
-2. Tast inn din personlige alarmkode.
-3. Trykk på åpen sirkel (nederst i midten på tastaturet).
-4. Du vil høre to pip som bekrefter at alarmen er deaktivert.
-
-## 🔒 Slik aktiverer du alarmen
-
-Sørg for at alle dører og vinduer er lukket, inkludert inngangsdøren.
-
-1. Aktiver tastaturet.
-2. Tast inn din personlige alarmkode.
-3. Trykk på lukket sirkel (nederst til venstre på tastaturet). Alarmen vil pipe og starte utgangsnedtellingen på 30 sekunder.
-4. Gå ut gjennom inngangsdøren. Når døren lukkes, aktiveres systemet automatisk.
-
-MERK: Systemet aktiveres også automatisk ved midnatt, men du skal alltid aktivere alarmen når du forlater Skogstua.
 
 ## 💼 Styrerommet
 
