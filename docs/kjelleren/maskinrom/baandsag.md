@@ -22,7 +22,7 @@ Båndsagen er en følsom maskin som er lett å skade ved feil bruk. Bruk den med
 ## Justeringer
 Kun disse hjulene og spakene skal endres av vanlige brukere:
 
-![Illustrasjon av båndsag](690125_8.jpg)
+![Illustrasjon av båndsag](/images/baandsag_illustrasjon.jpg)
 
 Stramming, tilting av blad og justering av støttene må klareres med styret.
 
