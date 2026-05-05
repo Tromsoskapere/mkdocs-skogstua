@@ -4,3 +4,5 @@ Tomta til Skogstua strekker seg over 3 mål og byr på et stort uteareal med man
 Hagen er også et flott sted for workshops, uteaktiviteter og sosiale treff, eller bare for å nyte frisk luft og naturen. Etter hvert som hagegruppa blir etablert, vil de dele informasjon om prosjekter, planting og aktiviteter som man kan bli med på.
 
 Dette er et sted for både kreativitet og fellesskap – der det er rom til å prøve nye ideer, lære, eksperimentere og skape sammen.
+
+Det er opprettet en gruppe på [Hudd](https://hudd.no) hvor arbeidet i hagen koordineres, denne finner dere [HER](https://hudd.no/groups/17552)
